@@ -13,26 +13,114 @@
 	
 }
 
-@media (max-width: 991px) {
-
+@media (max-width: 991.98px) {
+    /* slider area  */
+	.slider_left h2 {
+        max-width: 355px;
+        font-size: 46px;
+        line-height: 65px;
+        margin-top: 118px;
+    }
+    .slider_right img{
+        padding-left: 0px;
+    }
+    .col-6 {
+        flex: 0 0 100%;
+        padding: 0 15px;
+    }
+     /* blog section  */
+    .blog_area {
+        margin-top: 47px;
+        margin-bottom: 60px;
+    }
+    .blog_box {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 24px;
+    }
+    .blog_img {
+        width: 100%;
+        height: auto;
+    }
+    /* highlight section  */
+    .highlight_area_box{
+        grid-template-columns: 1fr;
+        place-items: flex-start;
+    }
+    .highlight_left h4{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .highlight_left p {
+        max-width: 550px;
+    }
+    .highlight_left .slider_btn{
+        margin-bottom: 30px;
+    }
+    /* club section  */
+    .club_box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-row-gap:30px;
+    }
 	
 }
 
 /*Medium devices (tablets, 767px and down)*/
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
 	.top_bar{
         display: none;
     }
+    /* slider area  */
+	.slider_left h2 {
+        max-width: 355px;
+        font-size: 46px;
+        line-height: 65px;
+        margin-top: 118px;
+    }
+    .slider_right img{
+        padding-left: 0px;
+    }
+    .col-6 {
+        flex: 0 0 100%;
+        padding: 0 15px;
+    }
+     /* blog section  */
+     .blog_area {
+        margin-top: 47px;
+        margin-bottom: 60px;
+    }
     .blog_box {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 24px;
+    }
+    .blog_img {
+        width: 100%;
+        height: auto;
+    }
+    /* highlight section  */
+    .highlight_area_box{
+        grid-template-columns: 1fr;
+        place-items: flex-start;
+    }
+    .highlight_left h4{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .highlight_left p {
+        max-width: 550px;
+    }
+    .highlight_left .slider_btn{
+        margin-bottom: 30px;
+    }
+    /* club section  */
+    .club_box{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap:30px;
-        grid-row-gap:27px;
+        grid-template-columns: repeat(3,1fr);
     }
 }
 
 /*Small devices (landscape phones, 575px and down)*/
-@media (max-width: 575px) {
+@media (max-width: 575.98px) {
     /* slider area  */
 	.slider_left h2 {
         max-width: 275px;
