@@ -62,7 +62,7 @@
 
     .highlight_area_box{
         grid-template-columns: 1fr;
-        place-items: left;
+        place-items: flex-start;;
     }
     .highlight_left h4{
         font-size: 30px;
