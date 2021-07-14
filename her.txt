@@ -1,2 +1,2 @@
-live website: https://satayjit-biswas.github.io/foodeater/index.html
-code link:  https://github.com/Satayjit-Biswas/foodeater
+code link:  https://github.com/Satayjit-Biswas/football
+live website: https://satayjit-biswas.github.io/football/
