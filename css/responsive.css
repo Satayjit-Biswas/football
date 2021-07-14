@@ -61,6 +61,11 @@
 }
 
 @media (max-width: 991.98px) {
+    /* menu  */
+    .menu ul li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
     /* slider area  */
 	.slider_left h2 {
         max-width: 355px;
