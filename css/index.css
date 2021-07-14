@@ -220,7 +220,19 @@ p {
 .highlight_area_box .btn_a:hover{
   box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.267);
 }
-/* footer_box */
+/* club section  */
+.clud_area{
+  margin-top: 80px;
+}
+.club_box{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  place-items: center;
+}
+.club_img{
+  max-width: 120px;
+}
+/* footer section */
 .footer_area{
   margin-top: 158px;
   margin-bottom: 62px;

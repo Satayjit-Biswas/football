@@ -47,6 +47,7 @@
         flex: 0 0 100%;
         padding: 0 15px;
     }
+    /* blog section  */
     .blog_area {
         margin-top: 47px;
         margin-bottom: 60px;
@@ -59,7 +60,7 @@
         width: 100%;
         height: auto;
     }
-
+    /* highlight section  */
     .highlight_area_box{
         grid-template-columns: 1fr;
         place-items: flex-start;;
@@ -74,6 +75,12 @@
     .highlight_left .slider_btn{
         margin-bottom: 30px;
     }
+    /* club section  */
+    .club_box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* footer section  */
     .footer_area {
         margin-top: 42px;
         margin-bottom: 185px;
