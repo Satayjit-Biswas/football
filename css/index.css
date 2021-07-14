@@ -154,6 +154,19 @@ p {
   margin-bottom: 86px;
   padding-left: 30px;
 }
+/* banner animation */
+#banner_Amimation{
+  animation: up-down 2s ease-in-out infinite alternate-reverse;
+}
+@-webkit-keyframes up-down{
+  0%{
+      transform: translateY(10px);
+  }
+  100%{
+      transform: translateY(-10px);
+  }
+}
+
 /* blog_sub_box  */
 .blog_area{
   margin-top: 70px;
